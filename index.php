@@ -68,7 +68,7 @@
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#classes-section" class="nav-link">Classes</a></li>
                 <li><a href="#schedule-section" class="nav-link">Schedule</a></li>
-                <li><a href="#trainer-section" class="nav-link">Trainer</a></li>
+            
                 <li><a href="#services-section" class="nav-link">Our Rules</a></li>
               </ul>
             </nav>
@@ -289,281 +289,73 @@ Whether you want to lose weight, gain strength, or simply stay active — BAAZI 
         <div class="row">
           <div class="col-lg-6 mb-5">
             <h2 class="section-title text-warning">Schedule</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-              voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias
-              blanditiis consequuntur
-              sunt nisi.</p>
+           
           </div>
         </div>
 
         <div class="row">
           <div class="col-12">
-            <ul class="nav nav-tabs mb-5 border-bottom-0 justify-content-center tab-list-custom" id="myTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday"
-                  aria-selected="true">Monday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday"
-                  aria-selected="false">Tuesday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Wednesday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Thursday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Friday</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday"
-                  aria-selected="false">Sunday</a>
-              </li>
-            </ul>
+            
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
-                <table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
-<table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-<table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-<table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-<table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
-              </div>
-              <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
-<table class="table table-bordered table-custom table-striped ">
-                  
-                  <tbody>
-                    <tr>
-                      <td>Gym</td>
-                      <td>8:00am - 10:00am</td>
-                      <td>John Doe</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Meditation</td>
-                      <td>10:00am - 10:30am</td>
-                      <td>James Holmes</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Weight Lifting</td>
-                      <td>1:00pm - 2:30pm</td>
-                      <td>Ben Smith</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Crossfit</td>
-                      <td>3:00pm - 3:45pm</td>
-                      <td>Craig Peters</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-                    <tr>
-                      <td>Aerobics</td>
-                      <td>5:00pm - 5:30pm</td>
-                      <td>Paul Green</td>
-                      <td class="text-center"><a href="#contact-section" class="smoothscroll">Join Now</a></td>
-                    </tr>
-
-                    
-                    
-                  </tbody>
-                </table>
+                <table style="width: 100%; border-collapse: collapse; margin: 20px auto; background: #fff;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Day</th>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Cardio</th>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Boxing / Self-Defence</th>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Sauna</th>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Women's Hours</th>
+      <th style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #333; color: #fff;">Men's Hours</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Saturday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #d1e7dd;">6:00am, 2:00pm, 8:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Sunday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #ffeeba;">5:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #f8d7da;">Available</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Monday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #d1e7dd;">6:00am, 2:00pm, 8:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #ffeeba;">5:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Tuesday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #d1e7dd;">6:00am, 2:00pm, 8:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #ffeeba;">5:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Wednesday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #d1e7dd;">6:00am, 2:00pm, 8:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">Thursday</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">-</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; background-color: #f8d7da;">Available</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">8:00am – 9:00pm</td>
+      <td style="padding: 10px; border: 1px solid #ccc; text-align: center; font-size: 12px; color: #555;">5:00am – 10:30pm</td>
+    </tr>
+  </table>
               </div>
             </div>
           </div>
@@ -572,38 +364,7 @@ Whether you want to lose weight, gain strength, or simply stay active — BAAZI 
       </div>
     </div>
 
-    <div class="site-section" id="trainer-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            <h2 class="section-title">Trainers</h2>
-            <p>At BAAZI GYM, our trainers are more than instructors — they are motivators, mentors, and your biggest supporters. Each of our certified professionals brings unique expertise in fitness, health, and transformation.</p>
-          </div>
-        </div>
-        <div class="row large-gutters">
-          <div class="col-md-6 person col-lg-4 mb-4 mb-lg-0">
-            <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-5">
-            <h3>James Holmes</h3>
-            <p class="mb-4 opacity-7">Aerobatics Trainer</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem, dignissimos dolorem porro aliquid veritatis!</p>
-          </div>
-          <div class="col-md-6 person col-lg-4 mb-4 mb-lg-0 mt-5">
-            <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-5">
-            <h3>Kelly Green</h3>
-            <p class="mb-4 opacity-7">Aerobatics Trainer</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem,
-              dignissimos dolorem porro aliquid veritatis!</p>
-          </div>
-          <div class="col-md-6 person col-lg-4 mb-4 mb-lg-0">
-            <img src="images/person_3.jpg" alt="Image" class="img-fluid mb-5">
-            <h3>Ben Smith</h3>
-            <p class="mb-4 opacity-7">Aerobatics Trainer</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat ipsam sequi iure rerum voluptatem,
-              dignissimos dolorem porro aliquid veritatis!</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
 
     <div class="site-section" id="services-section">
@@ -611,10 +372,50 @@ Whether you want to lose weight, gain strength, or simply stay active — BAAZI 
         <div class="row">
           <div class="col-lg-6 mb-5">
             <h2 class="section-title">OUR RULES</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
-              voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias
-              blanditiis consequuntur
-              sunt nisi.</p>
+            <h2>✅ General Conduct</h2>
+  <ul>
+    <li>Respect others – No loud grunting, yelling, or offensive language.</li>
+    <li>Use equipment properly – Follow instructions and gym guidelines.</li>
+    <li>Return equipment – Re-rack weights and clean up after yourself.</li>
+    <li>Limit time on machines – Especially during peak hours.</li>
+    <li>No loitering – Don’t rest excessively on equipment.</li>
+  </ul>
+
+  <h2>🧼 Hygiene and Cleanliness</h2>
+  <ul>
+    <li>Wipe down equipment after use.</li>
+    <li>Bring a clean workout towel.</li>
+    <li>Wear proper gym attire and closed-toe shoes.</li>
+    <li>Avoid strong perfumes or colognes.</li>
+  </ul>
+
+  <h2>🔐 Safety</h2>
+  <ul>
+    <li>Use a spotter for heavy lifts.</li>
+    <li>No dropping or slamming weights.</li>
+    <li>Report broken equipment to staff.</li>
+    <li>Stay in designated workout areas.</li>
+  </ul>
+
+  <h2>🕒 Membership & Access</h2>
+  <ul>
+    <li>Bring your membership ID or card.</li>
+    <li>Follow gym hours strictly.</li>
+    <li>All guests must be registered at the front desk.</li>
+  </ul>
+
+  <h2>🚫 Prohibited</h2>
+  <ul>
+    <li>No food or glass bottles in the gym.</li>
+    <li>No filming or photography without permission.</li>
+    <li>No smoking, alcohol, or drug use.</li>
+  </ul>
+
+  <h2>👮 Staff Authority</h2>
+  <ul>
+    <li>Follow staff instructions at all times.</li>
+    <li>Non-compliance can result in membership suspension or cancellation.</li>
+  </ul>
           </div>
         </div>
 
@@ -622,99 +423,71 @@ Whether you want to lose weight, gain strength, or simply stay active — BAAZI 
 
       
 
-    <div class="site-section bg-dark" id="contact-section">
-      <div class="container">
-
-        <div class="row justify-content-center">
-          <div class="col-md-7">
+    
 
 
 
-            <h2 class="section-title mb-3">Contact Us</h2>
-            <p class="mb-5">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam
-              temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
-
-            <form method="post" data-aos="fade">
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea class="form-control" id="" cols="30" rows="10"
-                    placeholder="Write your message here."></textarea>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-6">
-
-                  <input type="submit" class="btn btn-warning py-3 px-5 btn-block" value="Send Message">
-                </div>
-              </div>
-
-            </form>
-          </div>
-        </div>
+      <footer class="footer-section">
+  <div class="container">
+    <div class="row">
+      
+      <!-- About Section -->
+      <div class="col-md-4">
+        <h3>About BAAZI GYM</h3>
+        <p>BAAZI GYM is more than just a place to work out — it's a community built around strength, motivation, and transformation. Our mission is to help you achieve your fitness goals with professional guidance, modern equipment, and a supportive environment. Whether you're a beginner or a seasoned athlete, BAAZI GYM welcomes you to push your limits and become your best self.</p>
       </div>
+
+      <!-- Links Section -->
+      <div class="col-md-3 ml-auto">
+        <h3>Links</h3>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#" class="text-warning">Home</a></li>
+          <li><a href="#" class="text-warning">Meditation</a></li>
+          <li><a href="#" class="text-warning">Gym</a></li>
+          <li><a href="#" class="text-warning">Aerobatics</a></li>
+        </ul>
+      </div>
+
+      <!-- Login & Contact -->
+      <div class="col-md-4">
+        <h3>Contact Us</h3>
+        <ul class="list-unstyled footer-links">
+          <li>
+            <a href="https://wa.me/252633048757" target="_blank" class="text-success">
+              <i class="fa fa-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/baazigym" target="_blank" class="text-primary-dark">
+              <i class="fa fa-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/baazigym" target="_blank" class="text-danger">
+              <i class="fa fa-instagram"></i> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@baazigym.com" class="text-dark">
+              <i class="fa fa-envelope"></i> Email Us
+            </a>
+          </li>
+        </ul>
+
+        <!-- Login Button -->
+        <form action="#" class="cta mt-4">
+          <div class="d-flex">
+            <a href="./login.php" class="nav-link">
+              <span class="rounded border border-light fi fi-bs-entrance">Login</span>
+            </a>
+          </div>
+        </form>
+      </div>
+
     </div>
+  </div>
+</footer>
 
-
-
-    <footer class="footer-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>About BAAZI GYM</h3>
-            <p>BAAZI GYM is more than just a place to work out — it's a community built around strength, motivation, and transformation. Our mission is to help you achieve your fitness goals with professional guidance, modern equipment, and a supportive environment. Whether you're a beginner or a seasoned athlete, BAAZI GYM welcomes you to push your limits and become your best self.</p>
-          </div>
-
-          <div class="col-md-3 ml-auto">
-            <h3>Links</h3>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#" class=" text-warning ">Home</a></li>
-              <li><a href="#" class=" text-warning ">Meditation</a></li>
-              <li><a href="#" class=" text-warning ">Gym</a></li>
-              <li><a href="#"class=" text-warning ">Aerobatics</a></li>
-            </ul> 
-          </div>
-
-          <div class="col-md-4">
-        
-          
-            <form action="#" class="cta">
-              <div class="d-flex mb-5">
-              <a href="./login.php" class="nav-link">
-  <span class="rounded border border-light fi fi-bs-entrance">Login</span>
-  
-</a>
-              </div>
-            </form>
-          </div>
-
-        </div>
-
-        
-
-        </div>
-      </div>
-    </footer>
 
 
 

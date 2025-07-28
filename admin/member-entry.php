@@ -9,7 +9,9 @@ header('location:../index.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -26,7 +28,7 @@ header('location:../index.php');
 
 <!--Header-part--><!-- Visit codeastro.com for more projects -->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+  <h2 class="text-light">Baazi Gym</h2>
 </div>
 <!--close-Header-part--> 
 
@@ -170,13 +172,11 @@ header('location:../index.php');
               <div class="controls">
                 <label>
                   <input type="radio" value="Fitness" name="services" />
-                  Fitness <small>- $55 per month</small></label>
-                <label>
-                  <input type="radio" value="Sauna" name="services" />
-                  Sauna <small>- $35 per month</small></label>
+                  Fitness <small>- $25 per month</small></label>
+
                 <label>
                   <input type="radio" value="Cardio" name="services" />
-                  Cardio <small>- $40 per month</small></label>
+                  Cardio <small>- $25 per month</small></label>
               </div>
             </div>
 
@@ -185,7 +185,7 @@ header('location:../index.php');
               <div class="controls">
                 <div class="input-append">
                   <span class="add-on">$</span> 
-                  <input type="number" placeholder="50" name="amount" class="span11">
+                  <input type="number" placeholder="25" name="amount" class="span11">
                   </div>
               </div>
             </div>
@@ -217,9 +217,7 @@ header('location:../index.php');
 
 <!--Footer-part-->
 
-<div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
-</div>
+
 
 <style>
 #footer {

@@ -9,7 +9,8 @@ header('location:../index.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -26,7 +27,7 @@ header('location:../index.php');
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">qayzer</a></h1>
+  <h2 class="text-light">Baazi Gym</h2>
 </div>
 <!--close-Header-part--> 
 
@@ -48,7 +49,7 @@ header('location:../index.php');
 <div id="content">
   <div id="content-header">
     <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="fas fa-home"></i> Home</a> <a href="#" class="current">Registered Members</a> </div>
-    <h1 class="text-center">All Members List <i class="fas fa-group"></i></h1>
+    <h1 class="text-center">Registered Members List <i class="fas fa-group"></i></h1>
   </div>
   <div class="container-fluid">
     <hr>
@@ -75,7 +76,6 @@ header('location:../index.php');
                   <th>#</th>
                   <th>Fullname</th>
                   <th>Username</th>
-                  <th>Email</th>
                   <th>Gender</th>
                   <th>Contact Number</th>
                   <th>D.O.R</th>
@@ -93,7 +93,6 @@ header('location:../index.php');
                 <td><div class='text-center'>".$cnt."</div></td>
                 <td><div class='text-center'>".$row['fullname']."</div></td>
                 <td><div class='text-center'>@".$row['username']."</div></td>
-                <td><div class='text-center'>".$row['email']."</div></td>
                 <td><div class='text-center'>".$row['gender']."</div></td>
                 <td><div class='text-center'>".$row['contact']."</div></td>
                 <td><div class='text-center'>".$row['dor']."</div></td>
@@ -122,9 +121,6 @@ header('location:../index.php');
 
 <!--Footer-part-->
 
-<div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
-</div>
 
 <style>
 #footer {

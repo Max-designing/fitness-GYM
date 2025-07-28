@@ -6,15 +6,12 @@ include('dbcon.php'); ?>
 <head>
 <title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
 <link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
-        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
         <link rel="stylesheet" href="css/matrix-style.css" />
         <link rel="stylesheet" href="css/matrix-login.css" />
         <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
         
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 
@@ -24,7 +21,10 @@ include('dbcon.php'); ?>
     
     <div id="loginbox">            
             <form id="loginform" class="form-vertical" method="POST" action="#">
-				 <div class="control-group normal_text"> <h3>Customer Login</h3></div>
+            <h3>
+    <img src="../theme/images/logo.jpg" alt="Logo" style="width: 80px; height: 80px; border-radius: 50%;" />
+    Baazi Gym Customer
+  </h3>
                 <div class="control-group">
                     <div class="controls">
                         <div class="main_input_box">
@@ -41,7 +41,7 @@ include('dbcon.php'); ?>
                 </div>
                 <div class="form-actions">
                     <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Join Now!</a></span>
-                    <span class="pull-right"><button type="submit" name="login" class="btn btn-success" />Customer Login</button></span>
+                    <span class="pull-right"><button type="submit" name="login" class="btn btn-warning" />Customer Login</button></span>
                 </div>
                 <div class="g">
                 <a href="../index.php"><h6>Go Back</h6></a>
@@ -75,10 +75,9 @@ include('dbcon.php'); ?>
                                 </div>";
                             }
                     }
-                    
             ?>
             </form>
-            <form id="recoverform" action="../customer/pages/register-cust.php" method="POST" class="form-vertical" enctype="multipart/form-data">
+            <form id="recoverform" action="../customer/pages/register-cust.php" method="POST" class="form-vertical">
 				<p class="normal_text">Enter your details below and we will send your details for further activation process.</p>
 			
 
@@ -92,14 +91,7 @@ include('dbcon.php'); ?>
 
                         <div class="controls">
                             <div class="main_input_box">
-                                <span class="add-on bg_lo"><i class="fa fa-user"></i></span><input type="text" name="username" placeholder="@username" />
-                            </div>
-                        </div>
-
-                    <br>
-                    <div class="controls">
-                            <div class="main_input_box">
-                                <span class="add-on bg_lo"><i class="fa fa-envelope"></i></span><input type="text" name="email" placeholder="exmple@gmail.com" />
+                                <span class="add-on bg_lo"><i class="icon-leaf"></i></span><input type="text" name="username" placeholder="@username" />
                             </div>
                         </div>
 
@@ -115,7 +107,7 @@ include('dbcon.php'); ?>
 
                        <div class="controls">
                             <div class="main_input_box">
-                                <span class="add-on bg_lo"><i class="fa fa-phone"></i></span><input type="number" name="contact" placeholder="063*******" />
+                                <span class="add-on bg_lo"><i class="icon-leaf"></i></span><input type="number" name="contact" placeholder="7878787878" />
                             </div>
                         </div>
 
@@ -123,26 +115,18 @@ include('dbcon.php'); ?>
 
                     <div class="controls">
                         <div class="main_input_box">
-                            <span class="add-on bg_lo"><i class="fa fa-map-marker"></i></span><input type="text" name="address" placeholder="Address" />
+                            <span class="add-on bg_lo"><i class="icon-asterisk"></i></span><input type="text" name="address" placeholder="Address" />
                         </div>
                     </div>
 
                         <br>
-                        <div class="controls">
-  <div class="main_input_box">
-    <span class="add-on bg_lo"><i class="fa fa-image"></i></span>
-    <input type="file" name="profile_pic" accept="image/*" />
-  </div>
-</div>
-
-<br>
 
                         <div class="controls">
                             <div class="main_input_box">
                                 <select name="gender" required="required" id="select">
                                     <option value="Male" selected="selected">Male</option>
                                     <option value="Female">Female</option>
-                                    
+                                    <option value="Other">Other</option>
                                 </select>
                             </div>
                         </div>
@@ -168,7 +152,7 @@ include('dbcon.php'); ?>
                             <select name="services" required="required" id="select">
                             <option selected="true" disabled="disabled">Select Service</option>
                                 <option value="Fitness" >Fitness</option>
-                                
+                                <option value="Sauna">Sauna</option>
                                 <option value="Cardio">Cardio</option>
                             </select>
                             </div>

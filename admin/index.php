@@ -18,8 +18,10 @@ $result5=mysqli_query($con,$qry);
 <html lang="en">
 <head>
 <title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
 <link rel="stylesheet" href="../css/bootstrap-responsive.min.css" />
 <link rel="stylesheet" href="../css/fullcalendar.css" />
@@ -221,7 +223,9 @@ $result5=mysqli_query($con,$qry);
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+<div id="header">
+  <h2 class="text-light">Baazi Gym</h2>
+</div>
 </div>
 <!--close-Header-part--> 
 
@@ -379,44 +383,35 @@ $result5=mysqli_query($con,$qry);
       <div class="span6">
        
       <div class="widget-box">
-    <div class="widget-title"> 
-        <span class="icon"><i class="fas fa-tasks"></i></span>
-        <h5>Customer's To-Do Lists</h5>
-    </div>
-    <div class="widget-content">
-        <div class="todo">
-            <ul>
-                <?php
+          <div class="widget-title"> <span class="icon"><i class="fas fa-tasks"></i></span>
+            <h5>Customer's To-Do Lists</h5>
+          </div>
+          <div class="widget-content">
+            <div class="todo">
+              <ul>
+              <?php
+
                 include "dbcon.php";
-                $qry = "SELECT * FROM todo";
-                $result = mysqli_query($con, $qry);
+                $qry="SELECT * FROM todo";
+                $result=mysqli_query($con,$qry);
 
-                // Loop through the results
-                while ($row = mysqli_fetch_array($result)) { 
-                ?>
-                    <li class="clearfix"> 
-                        <div class="txt">
-                            <?php
-                            // Ensure the task_desc and task_status keys are set
-                            $task_desc = isset($row["task_desc"]) ? $row["task_desc"] : "No description available";
-                            $task_status = isset($row["task_status"]) ? $row["task_status"] : "Not assigned";
+                while($row=mysqli_fetch_array($result)){ ?>
 
-                            echo $task_desc; 
-                            
-                            if ($task_status == "Pending") {
-                                echo '<span class="by label label-info">Pending</span>';
-                            } else {
-                                echo '<span class="by label label-success">In Progress</span>';
-                            }
-                            ?>
-                        </div>
-                    </li>
-                <?php } ?>
-            </ul>
+                <li class='clearfix'> 
+                                                                        
+                    <div class='txt'> <?php echo $row["task_desc"]?> <?php if ($row["task_status"] == "Pending") { echo '<span class="by label label-info">Pending</span>';} else { echo '<span class="by label label-success">In Progress</span>'; }?></div>
+                
+               <?php }
+                echo"</li>";
+              echo"</ul>";
+              ?>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-
+       
+                </div>
+       
+      </div> <!-- End of ToDo List Bar -->
     </div><!-- End of Announcement Bar -->
   </div><!-- End of container-fluid -->
 </div><!-- End of content-ID -->
@@ -425,9 +420,7 @@ $result5=mysqli_query($con,$qry);
 
 <!--Footer-part-->
 
-<div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By ahmed qayzer</a> </div>
-</div>
+
 
 <style>
 #footer {

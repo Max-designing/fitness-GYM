@@ -4,7 +4,8 @@ include('dbcon.php'); ?>
 <html lang="en">
     <!-- Visit codeastro.com for more projects -->
 <head>
-        <title>Gym System Admin</title><meta charset="UTF-8" />
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="../theme/images/logo.JPG" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
@@ -19,7 +20,10 @@ include('dbcon.php'); ?>
     
         <div id="loginbox">            
             <form id="loginform" method="POST" class="form-vertical" action="#">
-            <div class="control-group normal_text"> <h3><img src="img/icontest3.png" alt="Logo" /></h3></div>
+            <div class="control-group normal_text"> <h3>
+    <img src="../theme/images/logo.jpg" alt="Logo" style="width: 80px; height: 80px; border-radius: 50%;" />
+    Baazi Gym Staff
+  </h3></div>
                 <div class="control-group">
                     <div class="controls">
                         <div class="main_input_box">

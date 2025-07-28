@@ -9,7 +9,8 @@ header('location:../index.php');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -26,7 +27,7 @@ header('location:../index.php');
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+  <h2 class="text-light">Baazi Gym</h2>
 </div>
 <!--close-Header-part--> 
 
@@ -75,8 +76,6 @@ header('location:../index.php');
                   <th>#</th>
                   <th>Fullname</th>
                   <th>Username</th>
-                  <th>Email</th>
-
                   <th>Gender</th>
                   <th>Contact Number</th>
                   <th>D.O.R</th>
@@ -84,7 +83,6 @@ header('location:../index.php');
                   <th>Amount</th>
                   <th>Choosen Service</th>
                   <th>Plan</th>
-                  <th>Code</th>
                   <th>Action</th>
                 </tr>
               </thead>";
@@ -96,7 +94,6 @@ header('location:../index.php');
                 <td><div class='text-center'>".$cnt."</div></td>
                 <td><div class='text-center'>".$row['fullname']."</div></td>
                 <td><div class='text-center'>@".$row['username']."</div></td>
-                <td><div class='text-center'>".$row['email']."</div></td>
                 <td><div class='text-center'>".$row['gender']."</div></td>
                 <td><div class='text-center'>".$row['contact']."</div></td>
                 <td><div class='text-center'>".$row['dor']."</div></td>
@@ -104,11 +101,7 @@ header('location:../index.php');
                 <td><div class='text-center'>$".$row['amount']."</div></td>
                 <td><div class='text-center'>".$row['services']."</div></td>
                 <td><div class='text-center'>".$row['plan']." Month/s</div></td>
-                <td><div class='text-center'>".$row['code']."</div></td>
-                <td><div class='text-center'><a href='edit-memberform.php?id=".$row['user_id']."'><i class='fas fa-edit'></i> Edit</a></div> </td>
-                
-   
-
+                <td><div class='text-center'><a href='edit-memberform.php?id=".$row['user_id']."'><i class='fas fa-edit'></i> Edit</a></div></td>
                 
               </tbody>";
          $cnt++;   }
@@ -129,9 +122,7 @@ header('location:../index.php');
 
 <!--Footer-part-->
 <!-- Visit codeastro.com for more projects -->
-<div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
-</div>
+
 
 <style>
 #footer {

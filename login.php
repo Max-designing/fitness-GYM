@@ -4,7 +4,8 @@
 <html lang="en">
     <!-- Visit codeastro.com for more projects -->
 <head>
-        <title>Gym System Admin</title><meta charset="UTF-8" />
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
@@ -23,7 +24,7 @@
             <div class="control-group normal_text">
   <h3>
     <img src="./theme/images/logo.jpg" alt="Logo" style="width: 80px; height: 80px; border-radius: 50%;" />
-    Baazi Gym
+    Baazi Gym Admin
   </h3>
 </div>
                 <div class="control-group">
@@ -43,7 +44,7 @@
                 <div class="form-actions center">
                     <!-- <span class="pull-right"><a type="submit" href="index.html" class="btn btn-success" /> Login</a></span> -->
                     <!-- <input type="submit" class="button" title="Log In" name="login" value="Admin Login"></input> -->
-                    <button type="submit" class="btn btn-block btn-large btn-info" title="Log In" name="login" value="Admin Login">Admin</button>
+                    <button type="submit" class="btn btn-block btn-large btn-warning" title="Log In" name="login" value="Admin Login">Admin</button>
                 </div>
             </form>
             <?php

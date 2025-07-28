@@ -10,7 +10,8 @@ header('location:../index.php');
 
 <html lang="en">
 <head>
-<title>Gym System Staff A/C</title>
+<title><?php echo ucfirst(basename($_SERVER['PHP_SELF'], ".php")); ?> | Baazi</title>
+<link rel="shortcut icon" href="./theme/images/logo.JPG" type="image/x-icon">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -26,7 +27,7 @@ header('location:../index.php');
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym</a></h1>
+  <h2><a href="dashboard.html">Baazi Gym</a></h2>
 </div>
 <!--close-Header-part--> 
 
@@ -183,9 +184,7 @@ header('location:../index.php');
 
 <!--Footer-part-->
 
-<div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
-</div>
+
 
 <style>
 #footer {
